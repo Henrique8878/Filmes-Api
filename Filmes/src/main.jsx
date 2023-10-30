@@ -11,9 +11,9 @@ import Search from './pages/search.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/Filmes-Api'>
       <Routes>
-        <Route path = '/' element = {<App/>}>
+        <Route element = {<App/>}>
           <Route path='/' element = {<Home/>}>Home</Route>
           <Route path='/movie/:id'element = {<Movie/>}>Movie</Route>
           <Route path='/search' element={<Search/>}>Search</Route>
