@@ -1,0 +1,300 @@
+.header{
+    background-color: rgb(31, 31, 31);
+    padding: 10px;
+  margin-bottom: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 20%;
+    border-radius: 10px;
+    font-size: 1.1em;
+    color:rgb(161, 8, 8) ;
+    transition: 0.3;
+    text-align: center;
+    
+}
+
+.link:hover{
+    border: 1px solid rgb(161, 8, 8);
+    
+}
+
+.titulo{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: rgb(161, 8, 8);
+    margin-left: 10px;
+}
+
+.titulo:hover{
+    opacity: 0.8;
+}
+
+.icone{
+    margin-left: 30%;
+    color: rgb(161, 8, 8);
+}
+
+
+
+.Filme{
+   
+    width: 340px;
+    height: 50%px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    background-color: rgb(27, 27, 27);
+    border-radius: 7px;
+}
+
+.Filme:hover{
+    cursor: pointer;
+    border: 1px solid rgb(161, 8, 8);
+    
+}
+
+.Filmes{
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.NomeFilme{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.start{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100%;
+}
+
+.imagem{
+    width: 315px;
+    height: 365px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.details{
+    
+    width: 95%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(161, 8, 8);
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    border-color: rgb(161, 8, 8);
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: rgb(27, 27, 27);
+    border: 1px solid rgb(161, 8, 8);
+    color: rgb(161, 8, 8);
+    cursor: pointer;
+}
+
+.TitleCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(161, 8, 8);
+}
+
+.inpFilme{
+    width: 40%;
+height: 30px;
+border-radius: 3px;
+padding-left: 6px;
+}
+
+.btnSearch{
+    width: 2em;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color:rgb(161, 8, 8) ;
+    border: none;
+}
+
+.btnSearch:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.a{
+    border: 1px solid rgb(161, 8, 8) ;
+    width: 90%;
+    border-radius: 8px;
+    height: 30px;
+    margin-top: 12px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(161, 8, 8) ;
+    font-weight:bold;
+    transition: 0.3s;
+    font-size: 1.3em;
+    
+}
+
+.a:hover{
+    color: rgb(161, 8, 8);
+    background-color:  rgb(27, 27, 27);
+}
+
+.btnVoltar{
+    margin-right: 5px;
+    width: 30%;
+    height: 55%;
+    border-radius: 3px;
+    color: rgb(161, 8, 8);
+   border: none;
+   background-color:  rgb(31, 31, 31) ;
+    
+    font-weight: bolder;
+    font-size: 11px;
+    transition: 0.3s;
+    padding: 6px;
+}
+
+.btnVoltar:hover{
+    cursor: pointer;
+    
+    border: 1px solid rgb(161, 8, 8) ;
+    color: rgb(161, 8, 8) ;
+    
+}
+
+.DescriptionMovie{
+    
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pai{
+   
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.orc{
+    margin-left: 2px;
+    margin-top: 12px;
+    line-height: 25px;
+}
+
+.icon{
+    color: rgb(161, 8, 8);
+    
+}
+
+.p{
+    margin-top: 17px;
+}
+
+.Two{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        flex-wrap: wrap;
+}
+
+.star{
+    
+    width: 20%;
+    
+}
+
+.centralizar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan{
+    margin-top: 25px;
+}
+
+.inp{
+    margin-right: -60px;
+}
+
+.calendario{
+    margin-top: 10px;
+}
+
+.color{
+    color: rgb(161, 8, 8);
+}
+
+.foot{
+    margin: 1px solid white;
+    height:4em;
+    background-color:rgb(31, 31, 31) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(161, 8, 8) ;
+}
+
+
+
