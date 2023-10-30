@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route element = {<App/>}>
+        <Route path = '/Filmes-Api' element = {<App/>}>
           <Route path='/' element = {<Home/>}>Home</Route>
           <Route path='/movie/:id'element = {<Movie/>}>Movie</Route>
           <Route path='/search' element={<Search/>}>Search</Route>
